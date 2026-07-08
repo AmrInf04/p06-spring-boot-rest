@@ -1,0 +1,9 @@
+sonar-token: squ_c9e5deceaff5c6299287bd990492f96062fac5b4
+
+commande sonar:sonar : 
+mvn sonar:sonar ^
+  -Dsonar.host.url=http://localhost:9000 ^
+  -Dsonar.token=squ_c9e5deceaff5c6299287bd990492f96062fac5b4 ^
+  -Dsonar.projectKey=p06-spring-boot-rest ^
+  -Dsonar.projectName="p06 - Spring Boot REST" ^
+  -Dsonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml

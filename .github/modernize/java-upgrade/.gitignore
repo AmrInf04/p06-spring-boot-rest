@@ -1,0 +1,12 @@
+/target/
+*.pom.properties
+*.jar
+*.war
+# Configuration Eclipse / STS
+.settings/
+.project
+.classpath
+
+# Configuration VS Code
+.vscode/
+/.mvn/wrapper/maven-wrapper.jar
